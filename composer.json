@@ -1,0 +1,21 @@
+{
+    "name": "powerkernel/yii2-libs",
+    "description": "Yii2 Libs",
+    "type": "yii2-extension",
+    "keywords": ["yii","extension","libs"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harry Tang",
+            "email": "harry@powerkernel.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "powerkernel\\libs\\": ""
+        }
+    }
+}
